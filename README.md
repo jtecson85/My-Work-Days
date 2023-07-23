@@ -27,6 +27,12 @@ This application enables the user to organize and keep track of daily activities
 Efficient Daily Planner
 Live Application
 
+# Sample Site & Deployed Live Site
+(./assets/image/Screenshot.png)
+
+https://jtecson85.github.io/My-Work-Days/Links to an external site.
+
+
 # Future Improvements
 Code refactoring for efficiency
 Enhancements to UI/UX for a better user experience
