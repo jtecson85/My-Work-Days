@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* Textarea styles */
+textarea {
+    background: transparent;
+    color: #000000;
+    border: none;
+    border-left: 1px solid black;
+    resize: none;
+    padding: 10px;
+}
+
+/* Header styles */
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+.description{
+    white-space: pre-wrap;
+}
+
+/* Container */
+.container {
+    margin-bottom: 40px;
+}
+
+/* Time block */
+.time-block{
+    align-self: center;
+    height: 100%;
+}
+
+/* Row styles */
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+
+/* Time status colors */
+.past {
+    background-color: #d3d3d3;
+    color: #000;
+}
+  
+.present {
+    background-color: #ff6961;
+    color: #000;
+}
+
+.future {
+    background-color: #77dd77;
+    color: #000;
+}
+
+/* Save button styles */
+.save-btn {
+    border: 0;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+}
+
+.save-btn:focus {
+    outline: none;
+}
+
+.save-btn span:hover {
+    font-size: 20px;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
